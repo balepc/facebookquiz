@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
   root "home#index"
 
-  #resources :quiz, only: [:index, :new, :create]
+  resources :quiz, only: [:show]
   resources :result, only: [:show]
 
   get '/quiz', to: 'quiz#new'
-  get '/result', to: 'result#index'
+  post '/quiz', to: 'quiz#create'
+  get '/result', to: 'result#show'
 
   #get 'quiz' => 'quiz#new'
   #get 'quiz' => 'quiz#show'
