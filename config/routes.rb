@@ -6,7 +6,6 @@ Rails.application.routes.draw do
 
   get '/quiz', to: 'quiz#new'
   post '/quiz', to: 'quiz#create'
-  get '/result', to: 'result#show'
 
   #get 'quiz' => 'quiz#new'
   #get 'quiz' => 'quiz#show'

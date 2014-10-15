@@ -1,7 +1,7 @@
 class ResultController < ApplicationController
 
 	def show
-		@result = Result.find(params[:quiz_id])
+		@result = Quiz.find(params[:id])
 	end
 
 end

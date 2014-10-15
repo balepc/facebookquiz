@@ -14,7 +14,7 @@ def create
 	@quiz.answers << Answer.find(params["1"].to_i)
 	@quiz.answers << Answer.find(params["2"].to_i)
 	@quiz.save
-	redirect_to @quiz
+	redirect_to result_path(@quiz.id)
 end
 
 def show
