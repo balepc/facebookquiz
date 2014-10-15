@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   root "home#index"
 
-  resources :quiz, only: [:index, :new, :create]
+  #resources :quiz, only: [:index, :new, :create]
   resources :result, only: [:show]
 
-  get '/quiz', to: 'quiz#index'
+  get '/quiz', to: 'quiz#new'
   get '/result', to: 'result#index'
 
   #get 'quiz' => 'quiz#new'

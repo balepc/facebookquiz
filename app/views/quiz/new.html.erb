@@ -1,0 +1,18 @@
+<h1>Hate or guilty?</h1>
+<br><br><br>
+<%= form_tag "/quiz", method: "POST" do %>
+<% @questions.each do |q| %> 
+	<h3><%= q.question %></h3>
+	<% q.answers.each do |a| %>
+		<h5><%= a.answer %> </h5>
+		<%= radio_button_tag(q.id, a.id) %>
+	<% end %>
+<% end %>
+<br />
+<br />
+<br />
+	<%= submit_tag "See Where You Stand" %>
+<% end %>
+
+    
+   

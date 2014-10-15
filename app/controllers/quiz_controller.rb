@@ -4,8 +4,7 @@ def index
 end
 
 def new
-	@question = Question.all
-	@answer = Answer.all
+	@questions = Question.all
 	#@quiz = Quiz.find(params[:user_id])
 end
 
