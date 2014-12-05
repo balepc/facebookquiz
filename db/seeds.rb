@@ -14,6 +14,15 @@ Answer.create answer: "Q1 A3", image: "generic.png", question_id: 1
 Answer.create answer: "Q2 A1", image: "generic.png", question_id: 2
 Answer.create answer: "Q2 A2", image: "generic.png", question_id: 2
 Answer.create answer: "Q2 A3", image: "generic.png", question_id: 2
-
-
-
+Result.create result: "Did you know that X% of people hate XYZ the most on their facebook timeline?", image: "generic.png", answer_id: 1
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 2
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 3
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 4
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 5
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 6
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 7
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 8
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 9
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 10
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 11
+Result.create result: "Did you know that X%  of people hate XYZ the most on their facebook timeline?", image: "generic.png",answer_id: 12
